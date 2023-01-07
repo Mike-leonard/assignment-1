@@ -11,9 +11,10 @@ header {
     background-size: cover;
 }
 .header-right-text {
-    width: 525px;
-    right: 30px;
+    width: 380px;
+    right: 10%;
     position: absolute;
+    text-align: right;
 
 }
 header h1 {
@@ -22,16 +23,15 @@ header h1 {
     line-height: 66px;
     text-align: right;
     color: #151414;
-    text-align: left;
 }
 header p {
-    width: 350px;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #151515;
     margin-top: 15px;
     margin-bottom: 20px;
+
 }
 header button {
     padding: 12px 20px;
