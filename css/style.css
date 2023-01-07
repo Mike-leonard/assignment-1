@@ -42,7 +42,67 @@ header button {
     color: white ;
     border: none;
 }
-
+/* Failure Section */
+.failure-section, .planner {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 60px auto;
+    gap: 130px;
+    justify-content: center;
+}
+.failure-section img {
+    width: 449px;
+    height: 550px;
+}
+.failure-text {
+    width: 416px;
+}
+.failure-text h3 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 12px;
+}
+.failure-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #444343;
+    width: 77%;
+    margin-bottom: 10px;
+}
+.right-check {
+    color: #16D887;
+    padding: 3px;
+}
+/* Plan Section */
+/* Section flexed with failure-section class  */
+.plans-table {
+    text-align: center;
+}
+.plans-table > h2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #151414;
+}
+.planner img {
+    width: 45px;
+    height: 45px;
+    margin: 10px 0;
+}
+.planner h5 {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #151414;
+}
+.planner p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #737272;
+}
 /* Footer Element design */
 footer {
     display: flex;
@@ -56,7 +116,7 @@ footer {
 footer section {
     width: 36%;
 }
-section h2 {
+footer section h2 {
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
