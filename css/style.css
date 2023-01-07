@@ -5,13 +5,14 @@
 /* Header Element Design */
 header {
     background: url(../images/banner/banner2.png);
-    height: 800px;
+    height: 700px;
     display: flex;
     align-items: center;
+    background-size: cover;
 }
 .header-right-text {
     width: 525px;
-    right: 10px;
+    right: 30px;
     position: absolute;
 
 }
@@ -43,7 +44,7 @@ header button {
     border: none;
 }
 /* Failure Section */
-.failure-section, .planner {
+.failure-section, .planner, .cards {
     display: flex;
     align-items: center;
     width: 70%;
@@ -54,6 +55,7 @@ header button {
 .failure-section img {
     width: 449px;
     height: 550px;
+
 }
 .failure-text {
     width: 416px;
@@ -103,6 +105,71 @@ header button {
     font-size: 18px;
     color: #737272;
 }
+/* Motivation Section */
+.motivation {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+                url(../images/watch.png);
+    width: 65%;
+    height: 183px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 70px auto;
+    background-position: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.motivation h2 {
+    width: 36%;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 20px 0 0 35px;
+}
+.motivation button {
+    width: 90px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    color: #F15B22;
+    padding: 10px 0;
+    margin: 20px 0 0 35px;
+    border-radius: 5px;
+    border: none;
+    
+}
+/* Web projects extra Section */
+/* Section flexed with failure-section class  */
+.extra-section h3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.cards1, .cards2, .cards3 {
+    padding: 20px 23px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -o-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    
+}
+.cards1 {
+    background-image: linear-gradient(to bottom right, #00bfad, #99a3d4);
+    color: #473737;
+}
+.cards2 {
+    background-image: linear-gradient(to bottom right, #ec407b, #ff7d94);
+    color: #c6d3d1;
+}
+.cards3 {
+    background-image: linear-gradient(to bottom right, #252525, #4a4a4a);
+    color: #dcdcdcdd;
+}
+.cards h4 {
+   margin: 12px 0; 
+}
 /* Footer Element design */
 footer {
     display: flex;
@@ -118,7 +185,7 @@ footer section {
 }
 footer section h2 {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 53px;
     color: #F8F8F8;
     margin-bottom: 7px;
@@ -135,7 +202,7 @@ footer section p {
     height: 30px;
     margin-right: 13px;
 }
-section h4 {
+footer section h4 {
     font-weight: 600;
     font-size: 25px;
     line-height: 29px;
